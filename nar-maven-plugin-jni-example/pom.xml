@@ -76,7 +76,18 @@
             <version>2.1.3</version>
         </dependency>
     </dependencies>
-
+    
+  <distributionManagement>
+        <snapshotRepository>
+            <id>N3_repo</id>
+            <url>http://localhost:8081/repository/nar_repo/</url>
+        </snapshotRepository>
+        <repository>
+            <id>N3_repo</id>
+            <url>http://localhost:8081/repository/nar_repo/</url>
+        </repository>
+  </distributionManagement>
+  
     <profiles>
         <profile>
             <id>cygwin</id>
